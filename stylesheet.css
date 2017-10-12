@@ -1,0 +1,42 @@
+
+*{
+    media: all;
+}
+h1 {
+    text-align: center;
+    font-family: Helvetia, Arial, sans-serif;  
+}
+
+p {
+font: 'Roboto Condensed';
+text-align: center;
+}
+div.images {
+    border-radius: 3px;
+    box-shadow: 10px 10px 5px #888888;
+    align-items: center;
+    align-content: space-between;
+    
+}
+div.contact {
+    text-align: center;
+    border: 5px solid coral;
+    border-radius: 5px solid coral;
+    padding: 10px;
+    align-content: space-between;
+    
+}
+a:hover {
+    color: green;
+}
+@media and (min width 600px){
+    #images {
+        width: 25%;
+    }
+}
+.link {
+    align-content: center;
+}
+div.nav {
+text-align: center;
+}
