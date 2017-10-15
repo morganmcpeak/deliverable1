@@ -1,0 +1,56 @@
+
+*{
+    background-color: rgb(101, 255, 204);
+}
+a:hover {
+    color: green;
+    text-align: center;
+}
+header {
+    text-align: center;
+    font-family: "Fugaz One", Helvetica, sans-serif;
+    background-color: rgba(255,255,255,50%); 
+    border: 5px solid white; 
+    color: white;
+}
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+h1{
+    font-family: "Fugaz One", sans-serif;
+}
+h3 {
+   font-family: 'Roboto Condensed', sans-serif;
+}
+div.images {
+    border-radius: 2px;
+    box-shadow: 10px 10px 5px #888;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+@media and (min width 600px){
+    #images {
+        width: 25%;
+    }
+}
+div.contact {
+    text-align: center;
+    border: 5px solid white;
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+div.nav {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    word-spacing: 10em;
+}
+a {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+#facts, #bands {
+    font-family: 'Roboto Condensed', sans-serif;
+}
