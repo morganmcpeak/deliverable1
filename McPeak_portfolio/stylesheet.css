@@ -13,13 +13,14 @@ header {
     border: 5px solid white; 
     color: white;
 }
+
 p {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
 }
 h1{
     font-family: "Fugaz One", sans-serif;
-    font-size: 2em;
+    font-size: 3em;
 }
 h3 {
    font-family: 'Roboto Condensed', sans-serif;
@@ -27,16 +28,15 @@ h3 {
 .container {
     display: flex;
     justify-content: center;
-    min-width: 320px;
-    max-width: 1024px;
     justify-content: space-between;
     align-content: stretch;
     margin-left: auto;
     margin-right: auto;
+    min-width: 320px;
 
 }
 #poster1, #poster2, #poster3 {
-    box-shadow: 5px 5px 5px #808080;
+    box-shadow: 5px 5px 5px #680b7a;
     border: 2px solid white;
 }
 
@@ -47,40 +47,58 @@ h3 {
     padding: 10px;
     margin: 10px;
     font-family: 'Roboto Condensed', sans-serif;
-    max-width: 1024px;
     display: flex;
     justify-content: center;
+    min-width: 320px;
+
 }
 .nav {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-    word-spacing: 10em;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.2em;
-    max-width: 1024px;
     min-width: 320px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+
 }
-.facts, .bands {
+.lists {
     font-family: 'Roboto Condensed', sans-serif;
-    min-width: 320px;
-    max-width: 1024px;
-    border: 2px solid white;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    min-width: 320px
+    
+}
+.bands {
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 15px;
+    border: 5px solid white;
+    overflow: scroll;
+}
+.facts {
+    float: right;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 15px;
+    border: 5px solid white;
+    overflow: scroll;
 }
 .footer {
     display: flex;
     justify-content: center;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 20px;
+    clear: both;
 }
-@media (max-width: 1024px) {
-    .container, .bands, .facts, .nav {
-        width: auto;
-    }
-}
-@media (min-width: 320px) {
-    .bands, .facts, .container {
+@media (min-width: 320px){
+    .container, .lists, .contact{
         width: auto;
     }
 }
