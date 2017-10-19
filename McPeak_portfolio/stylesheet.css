@@ -19,38 +19,68 @@ p {
 }
 h1{
     font-family: "Fugaz One", sans-serif;
+    font-size: 2em;
 }
 h3 {
    font-family: 'Roboto Condensed', sans-serif;
 }
-div.images {
-    border-radius: 2px;
-    box-shadow: 10px 10px 5px #888;
+.container {
     display: flex;
     justify-content: center;
+    min-width: 320px;
+    max-width: 1024px;
     justify-content: space-between;
+    align-content: stretch;
+    margin-left: auto;
+    margin-right: auto;
+
 }
-@media and (min width 600px){
-    #images {
-        width: 25%;
-    }
+#poster1, #poster2, #poster3 {
+    box-shadow: 5px 5px 5px #808080;
+    border: 2px solid white;
 }
-div.contact {
+
+
+.contact {
     text-align: center;
     border: 5px solid white;
     padding: 10px;
+    margin: 10px;
     font-family: 'Roboto Condensed', sans-serif;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
 }
-div.nav {
+.nav {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     word-spacing: 10em;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    max-width: 1024px;
+    min-width: 320px;
 }
-a {
+.facts, .bands {
     font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
+    min-width: 320px;
+    max-width: 1024px;
+    border: 2px solid white;
 }
-
-#facts, #bands {
+.footer {
+    display: flex;
+    justify-content: center;
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 20px;
+}
+@media (max-width: 1024px) {
+    .container, .bands, .facts, .nav {
+        width: auto;
+    }
+}
+@media (min-width: 320px) {
+    .bands, .facts, .container {
+        width: auto;
+    }
 }
