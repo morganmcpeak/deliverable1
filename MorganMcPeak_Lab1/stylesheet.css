@@ -1,0 +1,93 @@
+body {
+    background-color: #f9fafc;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    font-size: 12px;
+    display: inline;
+}
+a {
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.nav {
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    float: right;
+}
+
+.chirpus {
+    text-align: left;
+    display: inline-block;
+}
+
+.hire {
+    color: white;
+    padding: 5px 25px 5px 25px;
+    background-color: black;
+    border-radius: 50px;
+    text-align: right;
+}
+.copy {
+    width: 400px;
+    height: 130px;
+    margin-left: 3em;
+    position: relative;
+    top: 150px;
+    font-size: 14px;
+    overflow-wrap: normal;
+}
+
+p {
+    border-left: 2px solid gray;
+    padding-left: 10px;
+}
+
+.circle1 {
+    width: 220px;
+    height: 220px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 110px;
+    position: absolute;
+    z-index: 2;
+    right: 130px;
+}
+.circle2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 100px;
+    position: absolute;
+    z-index: 3;
+    right: 50px;
+    top: 300px;
+}
+.circle3 {
+    width: 120px;
+    height: 120px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 100px;
+    position: absolute;
+    z-index: 1;
+    right: 50px;
+    top: 210px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.scroll {
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    background-color: black;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+    left: 350px;
+}
