@@ -37,7 +37,8 @@ h3 {
 }
 .circles {
     position: absolute;
-    top: 11em;
+    top: 13em;
+
 }
 .circle1 {
     width: 270px;
@@ -84,7 +85,7 @@ h3 {
 }
 
 @media screen and (min-width: 480px) {
-     .nav {
+     .nav, .content {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -96,16 +97,5 @@ h3 {
 @media screen and (min-width: 480px) {
     .button1, .button2 {
         width: 7em;
-    }
-}
-@media screen and (min-width: 480px;) {
-    .button2 {
-        align-self: flex-end;
-    }
-}
-@media screen and (min-width: 480px;) {
-    .button1 {
-        align-self: flex-start;
-        justify-content: flex-end;
     }
 }
