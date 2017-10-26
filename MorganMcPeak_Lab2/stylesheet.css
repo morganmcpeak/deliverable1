@@ -33,6 +33,7 @@ h3 {
     border-left: 2px solid gray;
     padding: 3px;
     margin: 2px;
+    width: fixed;
 }
 .circles {
     position: absolute;
@@ -76,18 +77,35 @@ h3 {
     margin: 3px 0px 3px 0px;
     background-color: black;
     border-radius: 20px;
-    text-align: center;
     width: 100%;
     font-size: 12px;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (min-width: 480px) {
-    .content, .nav {
+     .nav {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         justify-content: space-around;
-        align-content: flex-end;
+        align-items: flex-end;
     
     }
 } 
+@media screen and (min-width: 480px) {
+    .button1, .button2 {
+        width: 7em;
+    }
+}
+@media screen and (min-width: 480px;) {
+    .button2 {
+        align-self: flex-end;
+    }
+}
+@media screen and (min-width: 480px;) {
+    .button1 {
+        align-self: flex-start;
+        justify-content: flex-end;
+    }
+}
